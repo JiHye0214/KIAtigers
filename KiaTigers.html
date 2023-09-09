@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KIA타이거즈 팀스토어</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/teamStore.css" />
+  </head>
+  <body>
+    <div class="all-wrapper">
+      <div class="sidebar-wrapper">
+        <div class="sidebar">
+          <img
+            src="./img/kid.logo.png"
+            alt="kia-logo"
+            width="200"
+            height="147"
+          />
+          <p>KIA TIGERS TEAM STORE</p>
+          <p>KIA타이거즈 팀스토어</p>
+        </div>
+      </div>
+      <div class="realsite">
+        <div class="header">
+          <ul class="header-items">
+            <li>
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAIFJREFUWEftlUEKwEAIA5uf9+f20t62HWhYUMheg+KOUXU0e2pWz5GCqCMhFEJEgPQ5Hqqqot84uqQljFdCKejGPcdDjj+c2BAiel9TdlKwo0ta5s/YP1T/LMZeLXP84cRm7IneHEK59nTt2xEi8+3S55h6FwHKG0IhRARIj4eI0AU3vigl74zYZwAAAABJRU5ErkJggg=="
+                width="25"
+                height="24.67"
+              />
+            </li>
+            <li>
+              <img src="./img/kiaTigers.logo.png" width="120" height="38.53" />
+            </li>
+            <ul class="header-items-wrapper">
+              <li>
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAyxJREFUWEftl03IVVUUhp9XxR+QFBNDwoQMI5AyRAopc+pA+8pRomENQg0ENX8GQYoDKZOvBmmCRoMGWRCi0vhzoAahZUYQKqhJGJQVkahIryxZJw567z3nXM7gQ1xwB/vsddZ67rvX3nsdMcxMw4yHewfI9jRgHfAUMCuV/hH4HhiU9Es/6velkO0B4FNgQpekfwMrJB1oCtUYyHaosrNmorWSPqjpe9utEZDtJ4FvgdGZ5BiwGTid45h/F3g2xzeApyX9VBeqNpDtUcAJIJKG7QeWSvqvnMz2yJxbks+jpuZKulkHqgnQC8BQBv0TeFTSX52S2H4QOFeqsXmSjrcN9BrwSQb9SlKhQMc8tg8Ci3JyuaTP2gbamPURcd+TtKlXAttR+LEBwt6SVGsjNFmyF4FiGx+Q9FIFUFmhxZIOta3QI8CFDHoFmCnpjy41NAU4AzyQ8w9L+rVVoAhm+2tgYQb+Anilwy4bAXwJvJx+hyUVtVTJVHvJEiiui5+BcRn5GyBq6wcgjoUngB2lc+gq8LikS5Uk6dAIKKHWAB/WTPCmpF01fW+7NQZKqKq7LM6nV+sWchm4L6DS8hW3/WwgTuK4QuJk3iHpchNlCt++gfpJVuedxkC2o6BDkfg91CXJb6nUd5Ku1QFppJDt2MrrgTeAGQ1qz3ke7Y6NICnGPa1SIduPAXEPPVMVrGL+aDZtZ3v59QSyvQzYC4wpBYkdFK3qKeD3LsEnl1rbiSWf6wn1eTeorkC2Y2ki8dh8OZqtzZIG6yplO+KvBbaXmrqoqVmSoj25yzoCZc2ExEXndx4YkBSqNDbbsQHiYp6eL0fs5zvVVDegaEvjX4XF+TJHUlwPfZvt+Do5CcQGCdsg6f07A3YDipt5ajpvkbS1b5LSi7a3AW/no4uSCsX+97oLyPYkoGgrol+eKOmfloCiHYlPpMLGS/q3HLsT0HzgSDqdllQ09W0wRQsTXyDRFYQ9JynqqadCq4GP0mOPpJWtkGQQ2/uA13O4StLHVUBbgHfSaaukGLdmtnvG77RkC4D4hQ1JKj59WoGy3TN+5dXRCkWDIPeBqsQadgrdAiSkATSdsl9mAAAAAElFTkSuQmCC"
+                  width="25"
+                  height="24.67"
+                />
+              </li>
+              <li>
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAphJREFUWEftl02IjWEYhq9bWFhIodQgDSKaDVEkxUKSUsrUZGUW/rOz8FcjiiwomikWxkqTibKwoIjFlEzZDKH8ZOEndiRCHj31HH1z5vx83ztnxizm3Z0zz31/19zP9z7ve8QYWxpjPIwD1evIoITMrCMj+A7ck9Rfz6SRfy8Hsgrm3ZLaG/nQWl55gFzfJqlnNKBqtWw5sDkg+iStGXWg7APNbBbwDpgQ37dIejLSUDW3vZldA7YFRKek/f8baC3wICC+AOcaDPQNuCLpc8m37mA0M2/T0gaDZO36Ja0sArQH6BpBoLeS5hUBmgJ8AKaG6AYwMEzAHcDc8Dgl6XBuIC80swtA6YXuldSaCmRm04BPwKTwaJb0pijQfOBliH4DcyR9TIEys71AZ2gfSlqV9an7UpeKzewusD4+d0g6ngj0CFgR2t2SLqYCbQWuh9jTaZL0pwiUmS0GnoXmBzBDkm/9f6tIQj6xfXL7BPfVKqm3INAZ4GBoeiS1letzA8XLfRQ4ESb3Ja3LC2Rm/g95sjNDs1HS7eECTQ/TiWG0QNKrPFBmtgm4FbXvgdmShlx3CiUUKV3160gYd0nalxMoey6elnSoki4FaDXQF2ZfgbN5gIAjQCnZhZJKY2SQvDBQpPQUWJITpLxsyOxJ2mVZkZl5y7x1KWu7pKrapIQiJYdaVJBoQFJpllWUJgMVBMldngxkZj7y/dR+DRyQdKfSU81sA3AeaAb8F8yuWnRJQGbmIJczxi8k+bEwZJnZ87LWtkvqrgaVCpSd2O79S9LkKkA/M1cNLzkm6WSjgVqAx5m5cqlaK6K1OwPAry7LJFW94CUlFLvMobb4gVurBVHrLW4CbtaC8dpkoNzbpmDhOFC9wMZcQn8B9qfWJee5n7kAAAAASUVORK5CYII="
+                  width="25"
+                  height="24.67"
+                />
+              </li>
+            </ul>
+          </ul>
+        </div>
+        <div class="section">
+          <!-- <img
+            src="./img/쇼핑몰-롤링배너-호걸이1.jpg"
+            alt="rotation1"
+            width="425px"
+            height="425px"
+          /> -->
+          <img
+            src="./img/쇼핑몰-롤링배너-브레드이발소2.jpg"
+            alt="rotation2"
+            width="425px"
+            height="425px"
+          />
+          <!-- <img
+            src="./img/팀스토어-메인-배너-003.jpg"
+            alt="rotation3"
+            width="425px"
+            height="425px"
+          /> -->
+        </div>
+        <div class="main">
+          <div class="main-first">
+            <div class="main-title">
+              <!-- 주요상품 -->
+              <p>주요상품</p>
+              <div class="see-more">
+                <a href="#">더보기</a>
+                <div>></div>
+              </div>
+            </div>
+            <div class="product-wrapper">
+              <div id="product-wrapper-first">
+                <div class="first-first">
+                  <a href="#">
+                    <img
+                      src="./img/어센틱 모자.jpg"
+                      width="170px"
+                      height="170px"
+                    />
+                    <p>어센틱 얼트 모자</p>
+                    <p>39,600</p>
+                  </a>
+                </div>
+                <div class="first-second">
+                  <a href="#">
+                    <img
+                      src="./img/레플리카 모자.jpg"
+                      width="170px"
+                      height="170px"
+                    />
+                    <p>레플리카 모자</p>
+                    <p>29,000</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 신규상품 -->
+          <div class="main-second">
+            <div class="main-title">
+              <p>신규상품</p>
+              <div class="see-more">
+                <a href="#">더보기</a>
+                <div>></div>
+              </div>
+            </div>
+            <div class="product-wrapper">
+              <div
+                id="product-wrapper-second"
+                style="
+                  display: grid;
+                  grid-template-columns: repeat(2, 1fr);
+                  grid-column-gap: 25px;
+                "
+              >
+                <!-- 이거 위 세 줄 왜 css에서 안 먹힘;; ? -->
+                <div class="second-first">
+                  <a href="#">
+                    <img src="./img/우비.jpg" width="170px" height="170px" />
+                    <p>판초 우의 호두</p>
+                    <p>19,000</p>
+                  </a>
+                </div>
+                <div class="second-second">
+                  <a href="#">
+                    <img src="./img/담요.jpg" width="170px" height="170px" />
+                    <p>벨크로 무릎 담요</p>
+                    <p>15,000</p>
+                  </a>
+                </div>
+                <div class="second-third">
+                  <a href="#">
+                    <img
+                      src="./img/광복절모자.jpg"
+                      width="170px"
+                      height="170px"
+                    />
+                    <p>어센틱 광복절 모자</p>
+                    <p>39,600</p>
+                  </a>
+                </div>
+                <div class="second-forth">
+                  <a href="#">
+                    <img
+                      src="./img/무등산 모자.jpg"
+                      width="170px"
+                      height="170px"
+                    />
+                    <p>어센틱 무등산 모자</p>
+                    <p>39,600</p>
+                  </a>
+                </div>
+              </div>
+              <button type="button" class="main-button">
+                <span>더보기</span>
+              </button>
+            </div>
+          </div>
+          <!-- 공지사항 -->
+          <div class="main-notice">
+            <div class="main-title">
+              <p>공지사항</p>
+              <div class="see-more">
+                <a href="#">더보기</a>
+                <div>></div>
+              </div>
+            </div>
+            <ul class="notice-items">
+              <li class="notice-items-first">
+                <a href="">배송 및 반품/교환 안내</a>
+              </li>
+              <li class="notice-items-second">
+                <a href="">유니폼 마킹 및 신청 안내</a>
+              </li>
+              <li class="notice-items-thrid">
+                <a href="">[QnA] 카카오톡 채널 문의하기</a>
+              </li>
+              <li class="notice-items-forth">
+                <a href="">오프라인 매장 운영 시간 안내</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer">
+          <div>
+            <section class="footer-menu-wrap">
+              <div class="menu-first">
+                <div class="menu-first-first">
+                  <div class="emblem">
+                    <img src="./img/T.logo.png" width="50" height="39.21" />
+                  </div>
+                  <p>KIA TIGERS TEAM STORE</p>
+                  <p>KIA타이거즈 팀스토어</p>
+                </div>
+                <div class="menu-first-second">
+                  <a href="#">
+                    <p>
+                      <img
+                        src="./img/phone-call-regular-24.png"
+                        width="15"
+                        height="15"
+                      />
+                    </p>
+                    <p>고객센터</p>
+                    <p>1533-3727</p>
+                  </a>
+                  <a href="#">
+                    <p>
+                      <img
+                        src="./img/카톡문의.png"
+                        width="15px"
+                        height="15px"
+                      />
+                    </p>
+                    <p>카카오톡 채널 상담</p>
+                    <p>@tigersgoods</p>
+                  </a>
+                </div>
+              </div>
+              <div class="menu-second">
+                <ul class="foot-menu">
+                  <li>
+                    <div class="hide-menu-wrapper">
+                      <div class="hide-menu">MY ACCOUNT</div>
+                      <button type="button">+</button>
+                    </div>
+                    <ul class="sub-menu">
+                      <li>로그인</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="hide-menu-wrapper">
+                      <div class="hide-menu">MY ORDER</div>
+                      <button>+</button>
+                    </div>
+                    <ul class="sub-menu">
+                      <li>주문 목록/배송 조회</li>
+                      <li>취소/반품/교환 목록</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="hide-menu-wrapper">
+                      <div class="hide-menu">HELP</div>
+                      <button type="button">+</button>
+                    </div>
+                    <ul class="sub-menu">
+                      <li>공지사항</li>
+                      <li>1:1 문의</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section class="corp-wrap">
+              <div>
+                <div class="terms">
+                  <span>개인정보처리방침</span>
+                  <span>이용약관</span>
+                </div>
+                <div class="info">
+                  <p class="company">기아타이거즈</p>
+                  <p>대표이사 : 최준영</p>
+                  <p>주소 : 광주광역시 북구 서림로 10 (무등종합경기장)</p>
+                  <p>
+                    사업자등록번호 : 4098102844
+                    <a href="#">사업자정보확인</a>
+                  </p>
+                  <p>통신판매신고 : 광주북구 2009-138호</p>
+                  <p>개인정보처리책임자 : 박형배</p>
+                  <p>전화번호 : 1533-3727</p>
+                  <p>팩스번호 :</p>
+                  <p>이메일 : cs@goodslab.kr</p>
+                  <p>
+                    호스팅사업자 : 엔에이치엔커머스(주), 더스포츠커뮤니케이션
+                  </p>
+                </div>
+                <div class="sns">
+                  <p>Copyright ⓒ KIA TIGERS ALL Rights Reserved.</p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
