@@ -1,3 +1,0 @@
-# masterpiece
-
-repository for practice
